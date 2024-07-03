@@ -1,0 +1,19 @@
+
+.img {	   
+		display: block;
+		z-index: 100;
+	    width: 200px;
+		height: 500px;
+		object-fit: contain;
+		position: absolute;
+		left: 300px;
+		top: 20%;
+		border-radius: 70%;
+		  position: absolute; 
+		  max-width: 100%;
+		 
+}
+@media (max-width: 600px)
+.img1 {
+	  max-width: 75%;
+}
